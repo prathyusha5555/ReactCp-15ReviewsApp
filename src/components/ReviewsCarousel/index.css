@@ -1,0 +1,57 @@
+.app-container {
+  background-image: linear-gradient(to bottom, rgb(80, 80, 168), #ffffff);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.image {
+  height: 90px;
+  width: 90px;
+}
+.name {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.container {
+  display: flex;
+  width: 70%;
+
+  align-items: center;
+}
+.company {
+  color: #171f46;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.arrow-icon {
+  height: 20px;
+}
+.review {
+  color: #171f46;
+  font-size: 18px;
+
+  font-family: 'Roboto';
+}
+.review-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
